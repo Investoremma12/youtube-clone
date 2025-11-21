@@ -1,0 +1,115 @@
+body {
+	font-family: Roboto, Arial;
+	background-color: black;
+	color: white;
+	padding-top: 55px;
+	padding-left: 300px;
+}
+
+.checkmark-icon {
+	background-color: #aaaaaa;
+	height: 12px;
+	border-radius: 53px;
+}
+
+.remove-icon {
+	height: 15px;
+	margin-left: -108px;
+	border-radius: 10px;
+	margin-top: 3px;
+}
+
+.first-container {
+	width: 400px;
+	display: inline-block;
+}
+
+.biggest-image {
+	width: 240px;
+	border-radius: 8px;
+}
+
+.img-div {
+	display: inline-block;
+	position: relative;
+}
+
+.all-video-container {
+	display: flex;
+	align-items: start;
+	width: 640px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.video-container {
+	display: flex;
+	align-items: start;
+	gap: 13px;
+}
+
+.time-container {
+	background-color: black;
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	right: 5px;
+	font-size: 12px;
+	font-family: Roboto, Arial;
+	padding: 4px;
+	border-radius: 2px;
+}
+.floating-container {
+	position: relative;
+	font-size: 12px;
+	color: #aaaaaa;
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+
+.hover-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.span-text-div {
+	position: absolute;
+	/* top: 20px; space below the text */
+	left: 0;
+	background-color: #6f6f6f;
+	padding: 8px 7px 8px 7px;
+	border-radius: 5px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.898);
+	display: none; /* hide by default */
+	white-space: nowrap;
+	top: -55px;
+}
+
+.hover-wrapper:hover .span-text-div {
+	display: block; /* show on hover */
+}
+.checkmark-container {
+	display: inline-block;
+	position: relative;
+}
+.checkmark-hover {
+	position: absolute;
+	background-color: #6f6f6f;
+	padding: 8px 7px 8px 10px;
+	border-radius: 3px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.898);
+	display: none;
+	top: -55px;
+}
+.checkmark-container:hover .checkmark-hover {
+	display: block;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.anchor-container {
+	width: 650px;
+}

@@ -1,0 +1,116 @@
+.right-top {
+	position: fixed;
+	background-color: #272727;
+	color: white;
+	top: 75px;
+	height: 58px;
+	right: 20px;
+	width: 750px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sub-header {
+	margin-left: 25px;
+	font-size: 14px;
+}
+.close-icon {
+	margin-right: 15px;
+}
+.close-icon:hover {
+	background-color: #525252;
+	padding: 7px;
+	margin: 8px;
+	border-radius: 20px;
+}
+.right-bottom {
+	position: fixed;
+	background-color: #0f0f0f;
+	color: white;
+	top: 140px;
+	bottom: 0px;
+	right: 0px;
+	width: 780px;
+	padding-right: 20px;
+	overflow: scroll;
+}
+.sort-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-left: 30px;
+	margin-top: 15px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.picture1 {
+	width: 200px;
+	border-radius: 8px;
+}
+.picture-text-container {
+	display: flex;
+	align-items: start;
+	gap: 10px;
+	padding-top: 0px;
+	margin-left: 5px;
+}
+.all-design-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.all-design-container:hover {
+	background-color: #272727;
+	padding-top: 7px;
+	margin-top: -7px;
+	padding-bottom: 7px;
+	margin-bottom: -7px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+.time-container {
+	position: relative;
+}
+.time-box {
+	background-color: black;
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	right: 5px;
+	font-size: 12px;
+	font-family: Roboto, Arial;
+	padding: 4px;
+	border-radius: 2px;
+}
+.text-hover-container .text-hover {
+	background-color: #5b5b5b;
+	font-size: 12px;
+	top: -55px;
+	left: -10px;
+	position: absolute;
+	padding: 9px 11px 9px 11px;
+	border-radius: 3px;
+	color: rgba(255, 255, 255, 0.718);
+	white-space: nowrap;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.15s;
+}
+.text-hover-container:hover .text-hover {
+	opacity: 1;
+}
+
+.text-hover-container {
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	color: gray;
+	margin-top: 11px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	margin-left: -125px;
+}

@@ -1,0 +1,138 @@
+.middle-section-body {
+	width: 360px;
+	background-color: white;
+	height: 720px;
+	background: linear-gradient(135deg, #2f4979);
+	border-radius: 10px;
+	position: relative;
+}
+.linear-image {
+	width: 310px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+.linear-image-container {
+	position: absolute;
+	right: 25px;
+	top: 27px;
+}
+.options-icon {
+	height: 21px;
+	margin-top: 6px;
+	/* background-color: #5a6378; */
+	background-color: #5c6275;
+	padding: 8px;
+	border-radius: 38px;
+	margin-left: 6px;
+	cursor: pointer;
+}
+.download-icon {
+	height: 21px;
+	margin-right: 0px;
+	margin-top: 6px;
+	background-color: #5c6275;
+	padding: 8px;
+	border-radius: 38px;
+	cursor: pointer;
+}
+.options-icon:hover {
+	background-color: #6d7587;
+}
+.download-icon:hover {
+	background-color: #6d7587;
+}
+.play-icon {
+	height: 13px;
+	margin-left: -10px;
+}
+.play-text {
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+}
+.play-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background-color: white;
+	/* margin-left: 38px;
+	margin-right: 180px; */
+	padding: 0px 44px;
+	border: none;
+	border-radius: 50px;
+	height: 37px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.play-container:hover {
+	background-color: #e6e6e6;
+}
+.shuffle-icon {
+	height: 20px;
+	margin-left: -10px;
+}
+.shuffle-text {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+.shuffle-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	background: linear-gradient(to right, #2a3450 0%, #3c425a 100%);
+	/* margin-left: 38px;
+	margin-right: 180px; */
+	padding: 0px 44px;
+	border: none;
+	border-radius: 50px;
+	height: 37px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.shuffle-container:hover {
+	background-color: #505668;
+}
+.download-container {
+	position: relative;
+	display: inline-block;
+}
+.download-container .download-text {
+	position: absolute;
+	font-size: 11px;
+	background-color: #54617e;
+	bottom: -35px;
+	padding: 10px 8px;
+	border-radius: 3px;
+	left: 8px;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.15s;
+}
+.download-container:hover .download-text {
+	opacity: 1;
+}
+.second-text-header {
+	font-size: 14px;
+	color: white;
+	font-weight: 500;
+	font-family: Roboto, Arial;
+	margin-bottom: 0px;
+	position: relative;
+	cursor: pointer;
+}
+.second-text-header .text-absolute {
+	position: absolute;
+	background-color: #54617e;
+	font-size: 12px;
+	padding: 10px 8px;
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 0.881);
+	top: -48px;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.15s;
+}
+.second-text-header:hover .text-absolute {
+	opacity: 1;
+}
